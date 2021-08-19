@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlKIpHmfsL1Z_cTTa8WD0Ucn1BhhpOvPX3tXnQhOQ0pT6F9KKXcSPVD6B1QOYQgRg7zZE&usqp=CAU" />
+    <title>Challenges #04</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <header class="bg-dark text-center text-white">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Challenge #04
+      </div>
+      <div class="container p-4 pb-0">
+        <section class="pb-4">
+          <p>Eai, beleza?</br>Aqui vão alguns Challenges feitos por Marlon Melchiades, com JavaScript puro!</br>Foi muito divertido fazer eles! </br> Esse é o #04 de #10. Veja e se divirta também! (vai que você ache algo útil aqui pra você!) ㋡</p>
+        </section>
+      </div>
+    </header>
+    <main class="container">
+      <section style="margin-top: 25px;">
+        <div class="card text-center">
+          <div class="card-header">
+            step 31
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">JoKenPô &#9986;</h5>
+            <p class="card-text">Vamos fazer uma partidinha de JoKenPô?</p>
+            <button id="botao-pedra31" class="btn btn-dark" type="button" id="button-addon2"><i class="bi bi-x-diamond"></i></i></button>
+            <button id="botao-papel31" class="btn btn-dark" type="button" id="button-addon2"><i class="bi bi-file-earmark"></i></button>
+            <button id="botao-tesoura31" class="btn btn-dark" type="button" id="button-addon2"><i class="bi bi-scissors"></i></button>
+            <span id="text-response-step31"></span>
+          </div>
+          <div class="card-footer text-muted">
+            Um joguinho pra relaxar, fala aí!
+          </div>
+      </section>
+      <section style="margin-top: 25px;">
+        <div class="card text-center">
+          <div class="card-header">
+            step 32
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Te desafio! &#129320;</h5>
+            <p class="card-text">Olha, vou pensar em um número de 1 a 10 e duvido você acertar!</p>
+            <div class="input-group mb-3">
+              <input id="numero-step32" type="text" class="form-control" placeholder="Chute um número" onkeyup="somenteNumeros(this);" aria-label="number">
+              <button id="botao-step32" class="btn btn-dark" type="button" id="button-addon2">Confirme</button>
+            </div>
+            <span id="text-response-step32"></span>
+          </div>
+          <div class="card-footer text-muted">
+            Conseguiu?
+          </div>
+        </div>
+      </section>
+      <section style="margin-top: 25px;">
+        <div class="card text-center">
+          <div class="card-header">
+            step 33
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Comprar um casa? &#127968;</h5>
+            <p class="card-text">Quer comprar uma casa? A gente te faz um empréstimo! O único requisito é que as parcelas da casa não ocupem mais que 30% do seu salário. Coloque os valores abaixo pra saber se você conseguirá o empréstimo.</p>
+            <input id="valor-step33" type="text" placeholder="Valor da casa" onkeyup="somenteNumeros(this);" class="form-control" aria-label="number">
+            <div class="input-group mt-1 mb-1">
+              <span class="input-group-text">R$</span>
+              <input id="salario-step33" type="text" placeholder="Salário" onkeyup="somenteNumeros(this);" class="form-control" aria-label="number">
+            </div>
+            <input id="anos-step33" type="text" placeholder="Anos" onkeyup="somenteNumeros(this);" class="form-control mb-3" aria-label="number">
+            <button id="botao-step33" class="btn btn-dark" type="button" id="button-addon2">Confirme</button>
+            <span id="text-response-step33"></span>
+          </div>
+          <div class="card-footer text-muted">
+            Comprar casa é muito caro, ta maluco!
+          </div>
+        </div>
+      </section>
+      <section style="margin-top: 25px;">
+        <div class="card text-center">
+          <div class="card-header">
+            step 34
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Será que eu to gordinho? &#128563;</h5>
+            <p class="card-text">Você está atento a sua saúde? Quer saber se está no peso ideal?</p>
+            <div class="input-group mb-3">
+              <input id="altura-step34" type="text" onkeyup="somenteNumeros(this);" class="form-control" placeholder="altura" aria-label="number">
+              <input id="peso-step34" type="text" onkeyup="somenteNumeros(this);" class="form-control" placeholder="peso" aria-label="number">
+              <button id="botao-step34" class="btn btn-dark" type="button" id="button-addon2">Confirme</button>
+            </div>
+            <span id="text-response-step34"></span>
+          </div>
+          <div class="card-footer text-muted">
+            Bora se exercitar?
+          </div>
+        </div>
+      </section>
+      <section style="margin-top: 25px;">
+        <div class="card text-center">
+          <div class="card-header">
+            step 35
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Alugar outro carro? &#128663;</h5>
+            <p class="card-text">Quer alugar com a gente de novo?</br> <strong>Carros populares:</strong>  </br> Diária R$90 </br> Até 100km rodado: R$0,20 </br> Acima de 100km rodado: R$0,10 p/km. </br> <strong>Carros de Luxo:</strong> </br> Diária R$150 </br> Até 100km rodado: R$0,30 </br> Acima de 100km rodado: R$0,25 p/km.</p>
+            <select id="classe-step35" class="form-select mt-1" aria-label="select">
+              <option disabled>Classificação do carro</option>
+              <option selected value="popular">Popular</option>
+              <option value="luxo">Luxo</option>
+            </select>
+            <input id="diaria-step35" type="text" placeholder="Dias alugados" onkeyup="somenteNumeros(this);" class="form-control mt-1" aria-label="number">
+            <input id="kilometros-step35" type="text" placeholder="Km rodados" onkeyup="somenteNumeros(this);" class="form-control mt-1" aria-label="number">
+            <button id="botao-step35" class="btn btn-dark mt-3" type="button" id="button-addon2">Confirme</button>
+            <span id="text-response-step35"></span>
+          </div>
+          <div class="card-footer text-muted">
+            Ja alugou? Então boa viagem!
+          </div>
+        </div>
+      </section>
+      <section style="margin-top: 25px;">
+        <div class="card text-center">
+          <div class="card-header">
+            step 36
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Exercício é vida! &#128170;</h5>
+            <p class="card-text">Cada atividade física feita no mês vale pontos que serão revertidos em dinheiro. Coloque sua quantidade de horas de exercícios e saiba quanto você irá ganhar!</br><strong>Lembrando que:</strong></br>Até 10hrs ganha 2 pontos por hora;</br>De 11 a 20hrs ganha 5 pontos por hora;</br>Acima de 20hrs ganha 10 pontos por hora.</br>Cada ponto equivale a R$0,05!</p>
+            <input id="atividades-step36" type="text" placeholder="Horas de atividade por mês" onkeyup="somenteNumeros(this);" class="form-control" aria-label="number">
+            <button id="botao-step36" class="btn btn-dark  mt-3" type="button" id="button-addon2">Confirme</button>
+            <span id="text-response-step36"></span>
+          </div>
+          <div class="card-footer text-muted">
+            Vai ter que malhar muito!
+          </div>
+        </div>
+      </section>
+      <section style="margin-top: 25px;">
+        <div class="card text-center">
+          <div class="card-header">
+            step 37
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mb-3">Novo reajuste salarial! &#128588;</h5>
+            <table class="table table-striped table-bordered" id="table-step37"></table>
+            <p class="card-text">*Marque o salário apenas com dígitos</p>
+            <select id="genero-step37" class="form-select mt-1" aria-label="select Gênero">
+              <option selected disabled>Gênero</option>
+              <option value="masculino">Masculino</option>
+              <option value="feminino">Feminino</option>
+            </select>
+            <input id="salario-step37" type="text" placeholder="Salário atual" onkeyup="somenteNumeros(this);" class="form-control mt-1" aria-label="number">
+            <input id="anos-step37" type="text" placeholder="Anos trabalhados" onkeyup="somenteNumeros(this);" class="form-control mt-1" aria-label="number">
+            <button id="botao-step37" class="btn btn-dark mt-3" type="button" id="button-addon2">Confirme</button>
+            <span id="text-response-step37"></span>
+          </div>
+          <div class="card-footer text-muted">
+            Agora sim vai dar pra pagar as contas!
+          </div>
+        </div>
+      </section>
+      <section style="margin-top: 25px;">
+        <div class="card text-center">
+          <div class="card-header">
+            step 38
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Vamos Brincar de Pique-Esconde! &#128373;</h5>
+            <p class="card-text">Vou contar até 10 e você vai ter que se esconder!</p>
+            <button id="botao-step38" class="btn btn-dark" type="button" id="button-addon2">Clique para iniciar a contagem</button>
+            <span id="text-response-step38"></span>
+          </div>
+          <div class="card-footer text-muted">
+            Ué, cadê você?
+          </div>
+        </div>
+      </section>
+      <section style="margin-top: 25px;">
+        <div class="card text-center">
+          <div class="card-header">
+            step 39
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Hoje é um novo dia... &#127870;</h5>
+            <p class="card-text">Faltam 10 segundos para o ano novo!</p>
+            <button id="botao-step39" class="btn btn-dark" type="button" id="button-addon2">Clique para a contagem regressiva</button>
+            <span id="text-response-step39"></span>
+          </div>
+          <div class="card-footer text-muted">
+            Hoje a festa é sua... &#9834;
+          </div>
+        </div>
+      </section>
+      <section style="margin-top: 25px;">
+        <div class="card text-center">
+          <div class="card-header">
+            step 40
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Tabuadinha bem fácil, em?! &#128210; </h5>
+            <p class="card-text">Vou falar a tabuadinha do 3 aqui pra você pra te mostrar que sou inteligente!</p>
+            <button id="botao-step40" class="btn btn-dark" type="button" id="button-addon2">Clique para a ver a tabuada</button>
+            <span id="text-response-step40"></span>
+          </div>
+          <div class="card-footer text-muted">
+            Decorou a tabuada do 3?
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer style="margin-top: 25px;" class="bg-dark text-center text-white">
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/marlonendjr" role="button">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://api.whatsapp.com/send?phone=+55(25)953459207&text=sua%20mensagem" role="button">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/marlon-melchiades/" role="button">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/MarlonMelchiades" role="button">
+            <i class="bi-github" role="img" aria-label="GitHub"></i>
+          </a>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <i class="bi bi-envelope"></i> marlonendrigosilva@gmail.com
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
