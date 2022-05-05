@@ -6,3 +6,4 @@ the fourth in a series of challenges made in pure javascript!
 4
 5
 6
+7
