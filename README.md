@@ -9,3 +9,4 @@ the fourth in a series of challenges made in pure javascript!
 7
 8
 9
+10
