@@ -1,2 +1,2 @@
 # challenge-04
-the fourth in a series of challenges made in pure javascript!
+O quarto de uma série de desafios feitos em javascript puro! 
